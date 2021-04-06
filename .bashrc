@@ -9,14 +9,13 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+# reference https://www.atlassian.com/git/tutorials/dotfiles
+# Sudo aliases
 alias docker='sudo docker'
 alias svim='sudo vim'
+
+# bash aliases
 alias sc="source $HOME/.bashrc"
 
-
-
-
 # git config
-
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
