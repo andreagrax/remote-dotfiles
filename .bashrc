@@ -13,6 +13,8 @@ fi
 # Sudo aliases
 alias docker='sudo docker'
 alias svim='sudo vim'
+alias journalctl='sudo journalctl'
+alias systemctl='sudo systemctl'
 
 # bash aliases
 alias sc="source $HOME/.bashrc"
