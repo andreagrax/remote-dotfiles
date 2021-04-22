@@ -15,6 +15,7 @@ alias docker='sudo docker'
 alias svim='sudo vim'
 alias journalctl='sudo journalctl'
 alias systemctl='sudo systemctl'
+alias ncdu='sudo ncdu'
 
 # bash aliases
 alias sc="source $HOME/.bashrc"
