@@ -22,3 +22,10 @@ alias sc="source $HOME/.bashrc"
 
 # git config
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# space-related aliases
+alias df70="df -h | sed 's/%//' | awk '/\// && \$5 > 70 || NR ==1'"
+alias df80="df -h | sed 's/%//' | awk '/\// && \$5 > 80 || NR ==1'"
+alias df90="df -h | sed 's/%//' | awk '/\// && \$5 > 90 || NR ==1'"
+alias ducks='du -cks * .*| sort -rn | head'
+alias sducks='sudo du -cks * .*| sort -rn | head'
